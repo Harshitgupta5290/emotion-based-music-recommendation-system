@@ -1,0 +1,8 @@
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirement.txt
+
+export FLASK_APP=app.py
+export FLASK_DEBUG=1
+
+sh start.sh
